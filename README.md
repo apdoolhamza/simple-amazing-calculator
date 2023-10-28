@@ -2,10 +2,9 @@
 
 A basic web-based calculator built with HTML, CSS, and JavaScript.
 
-![Calculator Screenshot](/img/Screenshot1.png)
+<img src="/img/Screenshot1.png" width="200" />
 
-![Calculator Screenshot](/img/Screenshot2.png)
-
+<img src="/img/Screenshot2.png" width="200" />
 
 ## Table of Contents
 
