@@ -1,0 +1,117 @@
+*{
+    padding:0;
+    margin:0;
+}
+::-webkit-scrollbar{
+    display:none;
+}
+body{
+    font-family:arial;
+    background-color:#f2f1f1;
+    user-select: none;
+}
+.container .output{
+text-align:right;
+font-weight:400;
+letter-spacing:1.4px;
+}
+.output .input{
+    color:#868181;
+    padding:30px 0 10px 0;
+    font-size:3rem;
+    overflow-x: scroll;
+    margin:0 10px;
+}
+.output .result{
+    padding:10px 0 16px 0;
+    font-size:2rem;
+    color: darkorchid;
+    overflow-x: scroll;
+    margin:0 10px;
+}
+
+.container .buttons{
+    position: fixed;
+    right:0;
+    left:0;
+    bottom:0;
+    height: calc(100vh - 11rem);
+    box-shadow:0 -1px 2px silver;
+    justify-content: center;
+         display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15px,auto));
+}
+.buttons .numbers{
+    background-color:white;
+}
+.buttons button{
+    font-size:30px;
+    margin:4.5% .8rem;
+    border:none;
+    outline:none;
+    background:transparent;
+    color:hsl(0, 2%, 52%);
+   width:20%;
+   height:20%;
+   font-weight:300;
+}
+.buttons button:active{
+    background-color: #f0f0f0;
+    border-radius:50px;
+}
+.buttons .operators{
+    background-color:#f2f1f1;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:0 5px;
+}
+
+.operators button{
+    width:100%;
+    display:block;
+    padding:5px;
+}
+
+.operators button:active{
+    background-color: darkorchid;
+    color:white;
+    border-radius:5px;
+}
+.buttons .logics{
+    background-color:darkviolet;
+}
+
+@media screen and (min-width:550px){
+    body{
+        background:linear-gradient(to left,rgb(8, 61, 168), rgb(174, 14, 233));
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .container {
+width:25rem;
+background-color:#f2f1f1;
+    }
+    .container .output{
+        height:11rem;
+        }
+    .container .buttons{
+        position: relative;
+    }
+    .buttons button{
+       width:4rem;
+       height:20%;
+    }
+    .buttons .operators{
+        padding:0;
+    }
+    .operators button{
+     height:18%;
+    }
+    .operators button:active{
+        border-radius:5px;
+    }
+}

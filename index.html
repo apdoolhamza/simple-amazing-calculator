@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <!-- importing extenal Css file -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+
+       <!--calculator output -->
+        <div class="output">
+            <div class="input"></div>
+            <div class="result"></div>
+        </div>
+        
+        
+        <!-- Calculator buttons -->
+        <div class="buttons">
+            <div class="numbers">
+            <button onclick="display('7')">7</button>
+            <button onclick="display('8')">8</button>
+            <button onclick="display('9')">9</button>
+            <button onclick="display('4')">4</button>
+            <button onclick="display('5')">5</button>
+            <button onclick="display('6')">6</button>
+     <button onclick="display('1')">1</button>
+     <button onclick="display('2')">2</button>
+     <button onclick="display('3')">3</button>
+     <button onclick="display('.')">.</button>
+     <button onclick="display('0')">0</button>
+     <button  onclick="calcDisplay('=')">=</button>
+    </div>    
+    <div class="operators">
+        <button style="font-size:16px;" onclick="deleteDisplay('del')">DEL</button>
+        <button onclick="display('/')">÷</button>
+         <button style="font-size: large;" onclick="display('*')">×</button>
+         <button onclick="display('-')">-</button>
+         <button onclick="display('+')">+</button>
+        </div>    
+
+        <div class="logics">
+
+        </div>
+    </div>
+</div>
+
+
+    <!-- importing extenal Js file -->
+    <script src="js/script.js"></script>
+</body>
+</html>
