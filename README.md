@@ -2,9 +2,7 @@
 
 A basic web-based calculator built with HTML, CSS, and JavaScript.
 
-<img src="/img/Screenshot1.png" width="200" />
-
-<img src="/img/Screenshot2.png" width="200" />
+<img src="/img/Screenshot1.png" width="300" />
 
 ## Table of Contents
 
