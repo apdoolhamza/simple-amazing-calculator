@@ -44,13 +44,13 @@ To run it on Android, just after clone it, navigate to the project directory and
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/apdoolhamza/simple-calculator.git
+   git clone https://github.com/apdoolhamza/simple-amazing-calculator.git
    ```
 
 2. Navigate to the project directory:
 
    ```bash
-   cd simple-calculator
+   cd simple-amazing-calculator
    ```
 
 3. Open `index.html` in your web browser.
