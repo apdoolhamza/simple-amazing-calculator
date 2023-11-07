@@ -44,7 +44,7 @@ To run it on Android, just after clone it, navigate to the project directory and
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/yourusername/simple-calculator.git
+   git clone https://github.com/apdoolhamza/simple-calculator.git
    ```
 
 2. Navigate to the project directory:
