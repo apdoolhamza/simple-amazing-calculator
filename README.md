@@ -3,7 +3,7 @@
 A basic web-based calculator built with HTML, CSS, and JavaScript.
 
 <img src="/img/Screenshot1.png" width="300" />
-
+  
 ## Table of Contents
 
 - [Introduction](#introduction)
@@ -41,21 +41,25 @@ To run it on Android, just after clone it, navigate to the project directory and
 
 ### Installation
 
-1. Clone this repository:
+1. Open Terminal(on Mac) or Git Bash(on Window)
+
+2. Navigate to the directory where you’d like your cloned repository to appear using 'cd'(change directory) command.
+Example:
+
+   ```bash
+   cd '/C/Users/Your System Username/My Project'
+   ```
+   
+3. Clone this repository:
+   copy and paste this link
 
    ```bash
    git clone https://github.com/apdoolhamza/simple-amazing-calculator.git
    ```
 
-2. Navigate to the project directory:
-
-   ```bash
-   cd simple-amazing-calculator
-   ```
-
 3. Open `index.html` in your web browser.
 
-## Usage
+##  Usage
 
 - Enter numbers using the on-screen keypad or your keyboard.
 - Use the buttons to perform calculations.
@@ -73,17 +77,13 @@ This project leverages the following technologies:
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE.txt) file for details.
 
-## Authors
+## Author
 
 - [Apdoolmajeed Hamza](https://github.com/apdoolhamza) - Full-Stack Developer
 
 ## Contact
 
-If you have questions, suggestions, feedback or project Optimizing, Updating, or Upgrading issues, please feel free to reach out:
+If you have questions, suggestions, feedback, or a project optimization issue, please feel free to reach out:
 
-- Email: [awesomedeveloperng@gmail.com](mailto:awesomedeveloperng@gmail.com)
-- WhatsApp: [+2348138028142](https://wa.me/message/5DXABMAWF6JIJ1)
-- LinkedIn: [apdoolhamza](https://www.linkedin.com/in/apdoolhamza/)
-- Twitter: [apdoolhamza](https://twitter.com/apdoolhamza/)
-- Instagram: [apdoolhamza](https://www.instagram.com/apdoolhamza/)
-- GitHub: [apdoolhamza](https://github.com/apdoolhamza/)
+- Email: [Email Us](mailto:awesomedeveloperng@gmail.com)
+- WhatsApp: [Chat Us](https://wa.me/message/5DXABMAWF6JIJ1)
