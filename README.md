@@ -15,7 +15,7 @@ A basic web-based calculator built with HTML, CSS, and JavaScript.
 - [Usage](#usage)
 - [Technologies Used](#technologies-used)
 - [License](#license)
-- [Authors](#authors)
+- [Author](#author)
 - [Contact](#contact)
 
 ## Introduction
